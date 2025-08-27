@@ -259,7 +259,7 @@ const Checkout = () => {
                     <div className="flex items-center space-x-2">
                       <Checkbox id="terms" />
                       <Label htmlFor="terms" className="text-sm">
-                        Я согласен с <Link to="/terms" className="text-green-600 hover:underline">условиями использования</Link> и <Link to="/privacy" className="text-green-600 hover:underline">политикой конфиденциальности</Link>
+                        Я согласен с <Link to="/terms" className="text-green-600 hover:underline">условиями использования</Link> и <Link to="/privacy" className=\"text-green-600 hover:underline">политикой конфиденциальности</Link>
                       </Label>
                     </div>
                   </div>
